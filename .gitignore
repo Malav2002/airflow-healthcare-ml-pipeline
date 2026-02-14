@@ -65,6 +65,37 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+airflow_venv/
+airflow_new_venv/
+__pycache__/
+*.pyc
+
+# Models
+model/*.sav
+model/*.pkl
+
+# Virtual Environment
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (IMPORTANT!)
+*.env
+config.py
+secrets.py
+
 # Scrapy stuff:
 .scrapy
 
