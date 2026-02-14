@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.7283,
+  "precision": 0.7438,
+  "recall": 0.6876,
+  "f1_score": 0.7146,
+  "confusion_matrix": [
+    [
+      5326,
+      1608
+    ],
+    [
+      2121,
+      4668
+    ]
+  ],
+  "top_features": {
+    "ap_hi": 0.2732,
+    "age": 0.1268,
+    "bp_category": 0.1214,
+    "ap_lo": 0.116,
+    "bmi": 0.106
+  }
+}
